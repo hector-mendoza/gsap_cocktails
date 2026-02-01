@@ -2,12 +2,12 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react"
 import { SplitText } from "gsap/all";
 import { useRef } from "react";
-import { useMediaQuery } from "react-responsive";
+import { useIsMobile } from "../hooks/hooks";
 
 
 const Hero = () => {
     const videoRef = useRef();
-    const isMobile = useMediaQuery({ maxWidth: 767 });
+    const isMobile = useIsMobile();
 
     useGSAP(() => {
         // GSAP animations will go here
