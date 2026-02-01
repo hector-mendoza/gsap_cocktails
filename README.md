@@ -2,6 +2,10 @@
 
 A modern, animated cocktail landing page built with React, GSAP, and Tailwind CSS. Features smooth scroll animations, video scrubbing effects, and an interactive cocktail menu carousel.
 
+## 🌐 Live Demo
+
+[View Live Demo](https://gsap-cocktails-hm.vercel.app/)
+
 ## ✨ Features
 
 - **Smooth GSAP Animations**: Text reveals, parallax effects, and scroll-triggered animations
